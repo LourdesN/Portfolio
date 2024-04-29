@@ -4,6 +4,7 @@ body {
   margin: 0 ;
     padding: 0 ;
     box-sizing: border-box;
+    top: 0;
 }
 .title h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,13 +22,14 @@ body {
 }
 /* The side navigation menu */
 .sidebar {
-    margin: 0;
+  margin: 0;
   padding: 0;
   width: 200px;
   background-color: #090909;
   position: fixed;
   height: 100%;
   overflow: auto;
+  top: 0;
 
 }
 
@@ -44,10 +46,13 @@ body {
   background-color: #86003c;
   color: white;
 }
-
+.sidebar h3{
+    color: #86003c;
+    text-align: center;
+}
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: #e41f7b;
   color: white;
 }
 
@@ -66,6 +71,12 @@ body {
     margin-left: 0;
     padding: 0;
   }
+  .title h1, .about-us h2{
+    font-size: 18px;
+    margin-right: 0;
+    text-align: center;
+  }
+   
 }
 
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
@@ -81,12 +92,12 @@ body {
 }
 /*about us styling*/
 .about-us {
-  height: 75vh;
+  height: 65vh;
   width: 100%;
   padding: 5px 0;
 }
 .pic {
-  width: 300px;
+  width: 250px;
   height: 350px;
   border-radius: 10%;
 }
@@ -135,15 +146,15 @@ button {
 }
 main {
   margin-top: 32px;
-  margin-left: 120px;
-  padding: 1px 10px;
+  margin-left: 90px;
+  padding: 1px 1px;
   height: 1000px;
 }
 
 /* media queries */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 766px) {
   .txt p {
-    font: 17px "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font: 18px "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   }
   .about,
   .about-us .txt,
@@ -163,19 +174,129 @@ main {
     margin-top: 10%;
     width: 250px;
     height: 350px;
-    margin-right: 50px;
     padding: 0cap;
+    margin-right: 0;
+  
   }
   .about-us {
     height: 120vh;
   }
+  .main{
+    margin-left: 10px;
+  }
 }
 @media screen and (max-width: 400px) {
     .pic {
-    margin-right: 50px;
+    padding: 0;
+    width: 250px;
+    margin-right: 0;
     }
-    main {
-      margin-left: 0;
-      padding: 0;
+    .main{
+      margin-left: 10px;
     }
   }
+  @media screen and (width: 768px) {
+    .about,
+    .about-us .txt,
+    .pic {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 3%;
+      padding: 0;
+      
+    }
+    .pic{
+      margin-left: 90px;
+      height: 300px;
+      width: 350px;
+      padding: 3%;
+      border-radius: 10%;
+    
+    }
+    .title h1{
+        text-align: center;
+    }
+  }
+
+/* projects styling  */
+.flex-container{
+    margin: 10px auto;
+    padding: 10px;
+    gap: 50px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 7%;
+
+  }
+  .flex-container > div {
+    background-color: #090909;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 200px;
+    height: 300px;
+    
+    
+  }
+  .title{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+  }
+  .btn-default:hover {
+    color: black;
+  }
+  .btn-default {
+    background-color:#86003c;
+    color: white;
+    padding: 5px 10px;
+    border: solid black;
+    cursor: pointer;
+    float: center;
+    position: center;
+    border-radius: 20px;
+    margin: 2px 2px;
+    width: 100px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .text {
+    color: white;
+    width: 100%;
+    margin: 0, 2px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+   h2{
+    color: white;
+    text-align: center;
+    margin-top: 5cap;
+  }
+  @media screen and (max-width: 700px) {
+    .flex-container, .navbar {   
+      flex-direction: column;
+    }
+    h2{
+        text-align: center;
+    }
+  }
+  .column{
+    width: 100%;
+    padding: 15px;
+    display: table;
+    
+  }
+  @media screen and (width: 768px) {
+    .flex-container, .navbar {   
+        display: grid;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        
+      }
+
+    }
+  
+  
