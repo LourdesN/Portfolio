@@ -6,7 +6,7 @@ body {
   top: 0;
 }
 .title h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Tahoma;
   font-size: x-large;
   color: #e41f7b;
   font-weight: lighter;
@@ -37,6 +37,7 @@ h4 {
   padding: 16px;
   text-decoration: none;
   text-align: center;
+  font-family:Georgia;
 }
 
 /* Active/current link */
@@ -113,9 +114,9 @@ h4 {
 }
 .txt p {
   font-size: 14px;
-  line-height: 21px;
+  line-height: 23px;
   letter-spacing: 0.5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Tahoma;
   word-spacing: 3px;
 
 }
@@ -154,7 +155,7 @@ main {
 /* media queries */
 @media only screen and (max-width: 766px) {
   .txt p {
-    font: 18px "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font: 16px "Tahoma";
   }
   .about,
   .about-us .txt,
@@ -239,7 +240,7 @@ main {
   color: white;
   font-size: 18px;
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Tahoma;
   margin-top: 10px;
 }
 .btn-default:hover {
@@ -262,9 +263,10 @@ main {
 .text {
   color: white;
   width: 100%;
-  margin: 0, 1px;
+  margin: 0, 3px;
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-family:Tahoma;
+  font-size: 14px;
 }
 #projects  {
   color: white;
@@ -341,6 +343,8 @@ h5 {
 }
 .code p {
   color: white;
+  font-family: Verdana;
+  font-size: 14px;
 }
 .code i {
   font-size: 36px;
@@ -385,8 +389,9 @@ h5 {
 }
 
 /* contact styling */
-.call h2 {
+.call{
   text-align: center;
+  color: white;
 }
 
 .contact {
@@ -411,13 +416,14 @@ h5 {
 }
 .heading {
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:  Tahoma;
   font-size: 14px;
 }
 .contacts a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
+  font-family:Verdana;
 }
 .contacts i{
   font-size: 30px;
