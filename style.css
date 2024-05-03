@@ -115,7 +115,8 @@ h4 {
   font-size: 14px;
   line-height: 21px;
   letter-spacing: 0.5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  word-spacing: 3px;
 
 }
 .resume a {
