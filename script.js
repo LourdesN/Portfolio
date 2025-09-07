@@ -23,7 +23,7 @@ function myFunction() {
                 id: 2,
                 title: "Code4You Certification",
                 issuer: "Code4You Academy",
-                year: "2024",
+                year: "2023",
                 description: "Advanced programming and software engineering certification",
                 image: "Code4You Certificate.jpg", 
                 issuerLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmeHGgYmUh1Fj2yIAcGY3KvcUywUu4nlvSSqSWrl84X28GWITDhWHQi-apw02rIgMxLQ&usqp=CAU",
