@@ -622,7 +622,7 @@ footer p{
             overflow: hidden;
             transition: all 0.3s ease;
             border: 1px solid #e5e7eb;
-            margin-right: 12%;
+            margin-left: 32%;
         }
         
         .certification-card:hover {
