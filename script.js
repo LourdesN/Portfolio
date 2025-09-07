@@ -15,8 +15,8 @@ function myFunction() {
                 issuer: "Power Learn Project",
                 year: "2024",
                 description: "Comprehensive software development certification covering full-stack technologies",
-                image: "PLP Academy certificate.jpg", // Replace with your actual image filename
-                issuerLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGqlpeRJapdEL4unH7Zu--7ppzrb2Qm7_BMAvkyMJD-MedT2YznAPy2xjI3lQp3kMGqQ&usqp=CAU", // Replace with PLP logo if available
+                image: "PLP Academy certificate.jpg", 
+                issuerLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGqlpeRJapdEL4unH7Zu--7ppzrb2Qm7_BMAvkyMJD-MedT2YznAPy2xjI3lQp3kMGqQ&usqp=CAU", 
                 badgeIcon: "fas fa-graduation-cap"
             },
             {
@@ -25,9 +25,8 @@ function myFunction() {
                 issuer: "Code4You Academy",
                 year: "2024",
                 description: "Advanced programming and software engineering certification",
-                image: "Code4You Certificate.jpg", // Replace with your actual image filename
-                issuerLogo: "https://picsum.photos/100?random=11", // Replace with Code4You logo if available
-                badgeIcon: "fas fa-code"
+                image: "Code4You Certificate.jpg", 
+                issuerLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmeHGgYmUh1Fj2yIAcGY3KvcUywUu4nlvSSqSWrl84X28GWITDhWHQi-apw02rIgMxLQ&usqp=CAU",
             }
         ];
 
