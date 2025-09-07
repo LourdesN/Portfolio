@@ -24,7 +24,7 @@ function myFunction() {
                 title: "Code4You Certification",
                 issuer: "Code4You Academy",
                 year: "2023",
-                description: "Advanced programming and software engineering certification",
+                description: "Advanced Web development and software engineering certification",
                 image: "Code4You Certificate.jpg", 
                 issuerLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmeHGgYmUh1Fj2yIAcGY3KvcUywUu4nlvSSqSWrl84X28GWITDhWHQi-apw02rIgMxLQ&usqp=CAU",
                 badgeIcon: "fas fa-graduation-cap"
@@ -34,8 +34,8 @@ function myFunction() {
         // Carousel state
         let currentSlide = 0;
         let slideInterval;
-        const slidesToShow = 2; // Show 2 certifications at a time
-        const slideDuration = 4000; // 4 seconds
+        const slidesToShow = 1; // Show 1 certifications at a time
+        const slideDuration = 2000; // 2 seconds
 
         // Initialize carousel
         function initCarousel() {
