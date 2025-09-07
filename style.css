@@ -497,6 +497,7 @@ h5 {
 .call{
   text-align: center;
   color: white;
+  margin-top:5%;
 }
 
 .contact {
@@ -532,6 +533,8 @@ h5 {
 }
 .contacts i{
   font-size: 30px;
+  margin-top:2%;
+  margin-bottom:2%;
 }
 .contacts a:hover {
   color: #e41f7b;
