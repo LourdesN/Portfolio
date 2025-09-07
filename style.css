@@ -675,6 +675,7 @@ footer p{
            font-weight: lighter;
            font-style: italic;
             text-align: center;
+           color: white;
         }
         
         .progress-dot:hover {
